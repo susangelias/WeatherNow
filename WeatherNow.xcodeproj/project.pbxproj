@@ -62,6 +62,9 @@
 		C006632F2CA439690070C53B /* FavoriteCitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCitiesView.swift; sourceTree = "<group>"; };
 		C00663312CA43B0D0070C53B /* OpaqueRoundedRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueRoundedRectView.swift; sourceTree = "<group>"; };
 		C00663332CA43C370070C53B /* StyledVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledVStack.swift; sourceTree = "<group>"; };
+		C00663982CA465DD0070C53B /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		C00663992CA466260070C53B /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		C006639A2CA46A870070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		C00662E72CA34D4E0070C53B = {
 			isa = PBXGroup;
 			children = (
+				C00663992CA466260070C53B /* Release.xcconfig */,
+				C00663982CA465DD0070C53B /* Debug.xcconfig */,
 				C00662F22CA34D4E0070C53B /* WeatherNow */,
 				C00663032CA34D4F0070C53B /* WeatherNowTests */,
 				C006630D2CA34D4F0070C53B /* WeatherNowUITests */,
@@ -112,6 +117,7 @@
 		C00662F22CA34D4E0070C53B /* WeatherNow */ = {
 			isa = PBXGroup;
 			children = (
+				C006639A2CA46A870070C53B /* Info.plist */,
 				C00662F32CA34D4E0070C53B /* WeatherNowApp.swift */,
 				C00662F52CA34D4E0070C53B /* ContentView.swift */,
 				C00662F72CA34D4F0070C53B /* Assets.xcassets */,
@@ -349,6 +355,7 @@
 /* Begin XCBuildConfiguration section */
 		C00663122CA34D4F0070C53B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00663982CA465DD0070C53B /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -412,6 +419,7 @@
 		};
 		C00663132CA34D4F0070C53B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00663992CA466260070C53B /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -468,6 +476,7 @@
 		};
 		C00663152CA34D4F0070C53B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00663982CA465DD0070C53B /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +486,7 @@
 				DEVELOPMENT_TEAM = YUPQ2JVR7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherNow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +516,7 @@
 				DEVELOPMENT_TEAM = YUPQ2JVR7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherNow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -526,6 +537,7 @@
 		};
 		C00663182CA34D4F0070C53B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00663982CA465DD0070C53B /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +578,7 @@
 		};
 		C006631B2CA34D4F0070C53B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00663982CA465DD0070C53B /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
